@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="NBPData:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/NBPData_jar</output-path>
+    <root id="archive" name="NBPData.jar">
+      <element id="module-output" name="NBPData" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jackson-core-2.9.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-cli-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jackson-annotations-2.9.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jackson-databind-2.9.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
